@@ -1,0 +1,7 @@
+---
+- name: this is sample plybook data
+  host: all
+  becomes: yes
+  tasks:
+      -name: ping webserver
+       action: ping
