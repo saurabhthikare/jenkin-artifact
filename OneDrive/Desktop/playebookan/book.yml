@@ -4,4 +4,4 @@
   become: yes
   tasks:
       - name: ping webserver
-        action: ping
+        ping: yes
